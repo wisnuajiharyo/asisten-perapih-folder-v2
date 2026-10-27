@@ -1,0 +1,18 @@
+{
+  "TopicRules": [
+    {
+      "CategoryName": "Laporan Keuangan 2026",
+      "Keywords": ["keuangan", "anggaran", "lap_keu", "laporan 2026", "rka", "rincian belanja"]
+    },
+    {
+      "CategoryName": "Berkas Kepegawaian",
+      "Keywords": ["sipp", "siasn", "sk", "kinerja"]
+    }
+  ],
+  "ExtensionFallback": [
+    { "CategoryName": "1_Dokumen", "Extensions": [".pdf", ".docx", ".doc", ".xlsx", ".xls", ".ppt", ".pptx", ".csv", ".txt", ".rtf"] },
+    { "CategoryName": "2_Gambar", "Extensions": [".png", ".jpg", ".jpeg", ".mp4"] },
+    { "CategoryName": "3_Aplikasi", "Extensions": [".exe", ".msi", ".bat"] },
+    { "CategoryName": "4_Arsip_ZIP", "Extensions": [".zip", ".rar"] }
+  ]
+}
